@@ -1,4 +1,5 @@
 package racingcar.utils;
 
-public class NumberGenerator {
+public interface NumberGenerator {
+    int generate();
 }
